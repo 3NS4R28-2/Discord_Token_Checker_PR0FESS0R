@@ -1,0 +1,11 @@
+# Opsiyonel — Discord istekleri icin proxy listesi
+# Her satira bir proxy yazin. Dosya yoksa veya bos ise proxy kullanilmaz.
+#
+# Desteklenen formatlar:
+#   ip:port
+#   ip:port:kullanici:sifre
+#   http://kullanici:sifre@ip:port
+#
+# Ornek:
+# 127.0.0.1:8080
+# 192.168.1.10:3128:user:pass

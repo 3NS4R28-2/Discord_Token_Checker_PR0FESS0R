@@ -1,0 +1,7 @@
+# Çalışma zamanı — şablonlar repoda kalır
+DiscordTokenChacker.exe
+license_session.dat
+active_tokens.txt
+invalid_tokens.txt
+active_bot_tokens.txt
+invalid_bot_tokens.txt

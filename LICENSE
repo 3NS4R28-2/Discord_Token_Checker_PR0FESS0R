@@ -1,0 +1,141 @@
+PR0FESS0R — Discord Token Chacker
+Lisans Sözleşmesi
+==================
+
+Telif Hakkı (c) 2026 PR0FESS0R. Tüm hakları saklıdır.
+
+Bu yazılım ("Yazılım") PR0FESS0R tarafından geliştirilmiş ve dağıtılmaktadır.
+Yazılımı indirerek, kurarak veya kullanarak bu sözleşmenin tüm koşullarını
+kabul etmiş sayılırsınız.
+
+
+1. LİSANS VERİLMESİ
+-------------------
+PR0FESS0R, geçerli bir lisans anahtarı satın almış ve doğrulamış kullanıcılara,
+bu sözleşme koşulları dahilinde Yazılımı kullanma hakkı tanır. Yazılım
+satılmaz; yalnızca sınırlı, devredilemez ve münhasır olmayan kullanım lisansı
+verilir.
+
+
+2. KISITLAMALAR
+---------------
+Aşağıdaki eylemler kesinlikle yasaktır:
+
+  - Lisans anahtarını paylaşmak, satmak veya devretmek
+  - Yazılımı cracklemek, tersine mühendislik yapmak veya korumayı aşmak
+  - Kaynak kodu veya derlenmiş dosyayı izinsiz kopyalamak veya dağıtmak
+  - Yazılımı yeniden satmak veya üçüncü taraflara ücretsiz sunmak
+  - HWID kilidini atlatmaya yönelik her türlü girişim
+
+
+3. LİSANS SÜRESİ
+----------------
+Süreli lisanslarda kullanım hakkı, satın alınan süre boyunca geçerlidir.
+Süre bitiminde lisans otomatik olarak sona erer. Lisans süresince çıkan
+güncellemeler aynı lisans anahtarı ile kullanılabilir.
+
+
+4. HWID KİLİDİ
+--------------
+Her lisans anahtarı tek bir cihaza (HWID) bağlanır. Cihaz değişikliği için
+Discord sunucumuz üzerinden destek talebi açılmalıdır.
+
+
+5. SORUMLULUK REDDİ
+-------------------
+Yazılım "olduğu gibi" sunulur. PR0FESS0R, Yazılımın kesintisiz veya hatasız
+çalışacağını garanti etmez. Discord API değişiklikleri, ağ sorunları veya
+üçüncü taraf hizmet kesintilerinden doğan zararlardan PR0FESS0R sorumlu
+tutulamaz.
+
+
+6. KÖTÜYE KULLANIM
+------------------
+Kullanıcı, Yazılımı yalnızca yasal amaçlarla ve izin verilen tokenlar üzerinde
+kullanmayı kabul eder. Başkalarına ait hesaplara izinsiz erişim veya
+Discord Hizmet Şartları'nı ihlal eden kullanımdan tamamen kullanıcı sorumludur.
+
+
+7. FİKRİ MÜLKİYET
+-----------------
+Yazılımın tüm hakları, markası ve içeriği PR0FESS0R'a aittir. Bu sözleşme
+size herhangi bir mülkiyet hakkı vermez.
+
+
+8. İLETİŞİM
+-----------
+Lisans satın alma, yenileme ve teknik destek:
+
+  Discord: https://discord.gg/HhSfKRa2Yk
+
+---
+---
+---
+
+PR0FESS0R — Discord Token Checker
+License Agreement
+=================
+
+Copyright (c) 2026 PR0FESS0R. All rights reserved.
+
+This software ("Software") is developed and distributed by PR0FESS0R.
+By downloading, installing, or using the Software, you agree to all terms
+of this agreement.
+
+
+1. LICENSE GRANT
+----------------
+PR0FESS0R grants users who have purchased and verified a valid license key
+a limited, non-transferable, non-exclusive right to use the Software under
+these terms. The Software is licensed, not sold.
+
+
+2. RESTRICTIONS
+---------------
+The following actions are strictly prohibited:
+
+  - Sharing, selling, or transferring your license key
+  - Cracking, reverse engineering, or bypassing protection
+  - Copying or distributing source code or binaries without permission
+  - Reselling the Software or providing it free to third parties
+  - Any attempt to bypass the HWID lock
+
+
+3. LICENSE TERM
+---------------
+For time-limited licenses, usage rights are valid for the purchased period.
+When the term ends, the license expires automatically. Updates released
+during your license period work with the same license key.
+
+
+4. HWID LOCK
+------------
+Each license key is bound to a single device (HWID). For device changes,
+open a support ticket on our Discord server.
+
+
+5. DISCLAIMER
+-------------
+The Software is provided "as is". PR0FESS0R does not guarantee uninterrupted
+or error-free operation. PR0FESS0R is not liable for damages from Discord API
+changes, network issues, or third-party service outages.
+
+
+6. MISUSE
+---------
+You agree to use the Software only for lawful purposes and on tokens you are
+authorized to test. You are solely responsible for unauthorized access to
+others' accounts or violations of Discord Terms of Service.
+
+
+7. INTELLECTUAL PROPERTY
+------------------------
+All rights, branding, and content of the Software belong to PR0FESS0R.
+This agreement does not grant you any ownership rights.
+
+
+8. CONTACT
+----------
+License purchase, renewal, and technical support:
+
+  Discord: https://discord.gg/HhSfKRa2Yk

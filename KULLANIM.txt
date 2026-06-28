@@ -1,0 +1,73 @@
+PR0FESS0R — Discord Token Chacker v1.0
+========================================
+
+Bu paket GitHub Release v1.0 kurulum dosyalarıdır.
+
+
+PAKET İÇERİĞİ
+-------------
+  setup.bat                 İLK ADIM — bağımlılık kurulumu (önce bunu çalıştırın)
+  requirements.txt          setup.bat tarafından kullanılır
+  DiscordTokenChacker.exe   Ana program (lisans korumalı)
+  tokens.txt                Token listesi (her satıra bir token)
+  proxies.txt               Proxy listesi (opsiyonel)
+  KULLANIM.txt              Bu dosya
+
+
+İLK KURULUM (SIRAYLA)
+---------------------
+1) Tüm dosyaları AYNI klasöre çıkartın.
+
+2) setup.bat dosyasına çift tıklayın — İLK ADIM.
+   - Bilgisayarda Python 3.10+ yüklü olmalı (yoksa: https://python.org)
+   - Kurulum sırasında "Add Python to PATH" seçeneğini işaretleyin.
+   - setup.bat şu paketleri otomatik kurar: requests, rich, colorama
+
+3) tokens.txt dosyasına tokenlarınızı yazın (her satıra bir tane).
+
+4) (Opsiyonel) proxies.txt dosyasına proxy ekleyin (aşağıya bakın).
+
+5) DiscordTokenChacker.exe dosyasını çalıştırın.
+
+6) Lisans anahtarınızı girin.
+
+7) Ana menüden [1] Token Chacker seçin.
+
+
+PROXY DESTEĞİ (opsiyonel)
+-------------------------
+Program Discord API isteklerini proxies.txt üzerinden gönderebilir.
+Dosya yoksa veya boşsa proxy kullanılmaz.
+
+proxies.txt — her satıra bir proxy:
+  ip:port
+  ip:port:kullanici:sifre
+  http://kullanici:sifre@ip:port
+
+Örnek:
+  127.0.0.1:8080
+  192.168.1.10:3128:user:pass
+
+Tarama başlarken kaç proxy yüklendiği ekranda gösterilir.
+
+
+GÜNCELLEME
+----------
+Lisansınız aktifken ana menüden [3] Güncelleme Kontrolü ile
+yeni sürüm indirilebilir. Eski .exe'yi kapatıp yenisini açın.
+
+tokens.txt, proxies.txt ve license_session.dat aynı klasörde kalabilir.
+
+
+ÇIKTI DOSYALARI (.exe ile aynı klasörde oluşur)
+-----------------------------------------------
+  active_tokens.txt        Geçerli kullanıcı tokenları (detaylı rapor)
+  invalid_tokens.txt       Geçersiz kullanıcı tokenları
+  active_bot_tokens.txt      Geçerli bot tokenları (detaylı rapor)
+  invalid_bot_tokens.txt     Geçersiz bot tokenları
+  license_session.dat        Lisans oturumu (silinmezse tekrar key sorulmaz)
+
+
+DESTEK / LİSANS
+---------------
+Discord: https://discord.gg/HhSfKRa2Yk
