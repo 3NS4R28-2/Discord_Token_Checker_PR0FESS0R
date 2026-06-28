@@ -2,7 +2,7 @@
 
 Lisans korumalı Discord kullanıcı ve bot token doğrulama aracı.
 
-**Sürüm:** 1.1.1  
+**Sürüm:** 1.1.2  
 **Geliştirici:** PR0FESS0R  
 **Discord:** https://discord.gg/HhSfKRa2Yk
 
@@ -68,7 +68,7 @@ PR0FESS0R, yazılımın kötüye kullanımından sorumlu değildir.
 
 License-protected Discord user and bot token validation tool.
 
-**Version:** 1.1.1  
+**Version:** 1.1.2  
 **Developer:** PR0FESS0R  
 **Discord:** https://discord.gg/HhSfKRa2Yk
 
