@@ -71,3 +71,22 @@ tokens.txt, proxies.txt ve license_session.dat aynı klasörde kalabilir.
 DESTEK / LİSANS
 ---------------
 Discord: https://discord.gg/HhSfKRa2Yk
+
+
+WINDOWS SMARTScreen / ANTİVİRÜS UYARISI
+---------------------------------------
+PyInstaller ile paketlenmiş ticari yazılımlarda Windows ve bazı antivirüs
+programları "tanınmayan yayıncı" veya "genel tehdit" uyarısı verebilir.
+Bu bir FALSE POSITIVE (yanlış alarm) olabilir.
+
+Ne yapmalısınız:
+  1) "Daha fazla bilgi" / "More info" tıklayın
+  2) "Yine de çalıştır" / "Run anyway" seçin
+  3) Windows Defender'da klasörü istisna olarak ekleyebilirsiniz
+
+Program imzasız (.exe code signing sertifikası yok) olduğu için SmartScreen
+yeni sürümlerde uyarı gösterebilir. PR0FESS0R resmi indirme kaynağı:
+GitHub Releases sayfasıdır.
+
+Güvenlik: Yalnızca resmi GitHub release zip dosyasını indirin.
+Üçüncü taraf sitelerden indirilen dosyaları çalıştırmayın.
