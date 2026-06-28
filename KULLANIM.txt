@@ -1,92 +1,103 @@
-PR0FESS0R — Discord Token Chacker v1.0
-========================================
+PR0FESS0R — Discord Token Chacker v1.1.2
+=========================================
 
-Bu paket GitHub Release v1.0 kurulum dosyalarıdır.
+Resmi indirme:
+https://github.com/3NS4R28-2/Discord_Token_Checker_PR0FESS0R/releases
 
 
-PAKET İÇERİĞİ
+PAKET ICERIGI
 -------------
-  setup.bat                 İLK ADIM — bağımlılık kurulumu (önce bunu çalıştırın)
-  requirements.txt          setup.bat tarafından kullanılır
-  DiscordTokenChacker.exe   Ana program (lisans korumalı)
-  tokens.txt                Token listesi (her satıra bir token)
+  DiscordTokenChacker.exe   Ana program (lisans korumali)
+  _internal\                ZORUNLU — silmeyin, exe buna ihtiyac duyar
+  tokens.txt                Token listesi (her satira bir token)
   proxies.txt               Proxy listesi (opsiyonel)
   KULLANIM.txt              Bu dosya
+  README.md / LICENSE       Urun bilgisi ve lisans (TR + EN)
+  setup.bat                 Opsiyonel — sadece kaynak kod gelistiricileri icin
 
 
-İLK KURULUM (SIRAYLA)
+ONEMLI
+------
+- Python kurmaniza GEREK YOK. Exe hazir calisir.
+- Zip'i acinca tum dosyalar AYNI klasorde kalmali.
+- _internal klasorunu silmeyin veya tasimayin.
+
+
+ILK KURULUM (SIRAYLA)
 ---------------------
-1) Tüm dosyaları AYNI klasöre çıkartın.
+1) GitHub Releases'ten kurulum zip dosyasini indirin:
+   PR0FESS0R_TokenChacker_v1.1.2_kurulum.zip
 
-2) setup.bat dosyasına çift tıklayın — İLK ADIM.
-   - Bilgisayarda Python 3.10+ yüklü olmalı (yoksa: https://python.org)
-   - Kurulum sırasında "Add Python to PATH" seçeneğini işaretleyin.
-   - setup.bat şu paketleri otomatik kurar: requests, rich, colorama
+2) Zip'i bir klasore cikartin (ornek: Masaustu\TokenChacker).
 
-3) tokens.txt dosyasına tokenlarınızı yazın (her satıra bir tane).
+3) tokens.txt dosyasina tokenlarinizi yazin (her satira bir tane).
 
-4) (Opsiyonel) proxies.txt dosyasına proxy ekleyin (aşağıya bakın).
+4) (Opsiyonel) proxies.txt dosyasina proxy ekleyin.
 
-5) DiscordTokenChacker.exe dosyasını çalıştırın.
+5) DiscordTokenChacker.exe dosyasini calistirin.
 
-6) Lisans anahtarınızı girin.
+6) Lisans anahtarinizi girin.
 
-7) Ana menüden [1] Token Chacker seçin.
+7) Ana menuden [1] Token Chacker secin.
 
 
-PROXY DESTEĞİ (opsiyonel)
+ANA MENU
+--------
+  [1] Token Chacker
+  [2] Lisans Bilgileri
+  [3] Guncelleme Kontrolu (lisans suresince)
+  [4] Emegi Gecenler
+  [5] Dil / Language  (Turkce veya English)
+  [6] Cikis
+
+
+PROXY DESTEGI (opsiyonel)
 -------------------------
-Program Discord API isteklerini proxies.txt üzerinden gönderebilir.
-Dosya yoksa veya boşsa proxy kullanılmaz.
+Program Discord API isteklerini proxies.txt uzerinden gonderebilir.
+Dosya yoksa veya bossa proxy kullanilmaz.
 
-proxies.txt — her satıra bir proxy:
+proxies.txt — her satira bir proxy:
   ip:port
   ip:port:kullanici:sifre
   http://kullanici:sifre@ip:port
 
-Örnek:
-  127.0.0.1:8080
-  192.168.1.10:3128:user:pass
 
-Tarama başlarken kaç proxy yüklendiği ekranda gösterilir.
-
-
-GÜNCELLEME
+GUNCELLEME
 ----------
-Lisansınız aktifken ana menüden [3] Güncelleme Kontrolü ile
-yeni sürüm indirilebilir. Eski .exe'yi kapatıp yenisini açın.
+Lisansiniz aktifken ana menuden [3] Guncelleme Kontrolu ile
+yeni surum indirilebilir. Program zip indirip dosyalari cikarir.
 
-tokens.txt, proxies.txt ve license_session.dat aynı klasörde kalabilir.
+Guncelleme sonrasi:
+  - Eski DiscordTokenChacker.exe'yi kapatın
+  - Yeni klasordeki exe'yi calistirin
+  - _internal klasorunun exe ile ayni dizinde oldugundan emin olun
+
+tokens.txt, proxies.txt ve license_session.dat ayni klasorde kalabilir.
 
 
-ÇIKTI DOSYALARI (.exe ile aynı klasörde oluşur)
+CIKTI DOSYALARI (.exe ile ayni klasorde olusur)
 -----------------------------------------------
-  active_tokens.txt        Geçerli kullanıcı tokenları (detaylı rapor)
-  invalid_tokens.txt       Geçersiz kullanıcı tokenları
-  active_bot_tokens.txt      Geçerli bot tokenları (detaylı rapor)
-  invalid_bot_tokens.txt     Geçersiz bot tokenları
+  active_tokens.txt          Gecerli kullanici tokenlari (detayli rapor)
+  invalid_tokens.txt         Gecersiz kullanici tokenlari
+  active_bot_tokens.txt      Gecerli bot tokenlari (detayli rapor)
+  invalid_bot_tokens.txt     Gecersiz bot tokenlari
   license_session.dat        Lisans oturumu (silinmezse tekrar key sorulmaz)
+  settings.json              Dil tercihi (Turkce / English)
 
 
-DESTEK / LİSANS
+WINDOWS SMARTScreen / ANTIVIRUS
+-------------------------------
+Program imzasiz oldugu icin Windows "taninmayan yayinci" uyarisi verebilir.
+DiscordTokenChacker.exe VirusTotal'ta 0/71 temizdir (resmi build).
+
+Ne yapmalisiniz:
+  1) "Daha fazla bilgi" / "More info" tiklayin
+  2) "Yine de calistir" / "Run anyway" secin
+
+Guvenlik: Yalnizca resmi GitHub release zip dosyasini indirin.
+Ucuncu taraf sitelerden indirilen dosyalari calistirmayin.
+
+
+DESTEK / LISANS
 ---------------
 Discord: https://discord.gg/HhSfKRa2Yk
-
-
-WINDOWS SMARTScreen / ANTİVİRÜS UYARISI
----------------------------------------
-PyInstaller ile paketlenmiş ticari yazılımlarda Windows ve bazı antivirüs
-programları "tanınmayan yayıncı" veya "genel tehdit" uyarısı verebilir.
-Bu bir FALSE POSITIVE (yanlış alarm) olabilir.
-
-Ne yapmalısınız:
-  1) "Daha fazla bilgi" / "More info" tıklayın
-  2) "Yine de çalıştır" / "Run anyway" seçin
-  3) Windows Defender'da klasörü istisna olarak ekleyebilirsiniz
-
-Program imzasız (.exe code signing sertifikası yok) olduğu için SmartScreen
-yeni sürümlerde uyarı gösterebilir. PR0FESS0R resmi indirme kaynağı:
-GitHub Releases sayfasıdır.
-
-Güvenlik: Yalnızca resmi GitHub release zip dosyasını indirin.
-Üçüncü taraf sitelerden indirilen dosyaları çalıştırmayın.
