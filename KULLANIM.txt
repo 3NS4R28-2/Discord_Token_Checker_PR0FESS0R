@@ -1,4 +1,4 @@
-PR0FESS0R — Discord Token Chacker v1.1.2
+PR0FESS0R — Discord Token Chacker v1.1.4
 =========================================
 
 Resmi indirme:
@@ -26,7 +26,7 @@ ONEMLI
 ILK KURULUM (SIRAYLA)
 ---------------------
 1) GitHub Releases'ten kurulum zip dosyasini indirin:
-   PR0FESS0R_TokenChacker_v1.1.2_kurulum.zip
+   PR0FESS0R_TokenChacker_v1.1.4_kurulum.zip
 
 2) Zip'i bir klasore cikartin (ornek: Masaustu\TokenChacker).
 
@@ -54,7 +54,7 @@ ANA MENU
 PROXY DESTEGI (opsiyonel)
 -------------------------
 Program Discord API isteklerini proxies.txt uzerinden gonderebilir.
-Dosya yoksa veya bossa proxy kullanilmaz.
+Dosya yoksa veya bos ise proxy kullanilmaz.
 
 proxies.txt — her satira bir proxy:
   ip:port
@@ -85,14 +85,28 @@ CIKTI DOSYALARI (.exe ile ayni klasorde olusur)
   settings.json              Dil tercihi (Turkce / English)
 
 
-WINDOWS SMARTScreen / ANTIVIRUS
--------------------------------
-Program imzasiz oldugu icin Windows "taninmayan yayinci" uyarisi verebilir.
-DiscordTokenChacker.exe VirusTotal'ta 0/71 temizdir (resmi build).
+WINDOWS DEFENDER / Wacapew UYARISI (FALSE POSITIVE)
+---------------------------------------------------
+Bazi bilgisayarlarda Windows Defender su uyarilari verebilir:
+  - Program:Win32/Wacapew.A!ml
+  - "Windows bilgisayarinizi korudu"
+  - SmartScreen: "Taninmayan yayinci"
 
-Ne yapmalisiniz:
-  1) "Daha fazla bilgi" / "More info" tiklayin
-  2) "Yine de calistir" / "Run anyway" secin
+Bu bir VIRUS DEGILDIR. PyInstaller ile paketlenmis imzasiz yazilimlarda
+yaygin bir yanlis alarm (false positive) dir. Resmi build VirusTotal'da
+DiscordTokenChacker.exe icin 0/71 temizdir.
+
+Windows Guvenligi'nde uyari cikarsa:
+  1) Windows Guvenligi > Virüs ve tehdit korumasi
+  2) Gecerli tehditler > DiscordTokenChacker.exe
+  3) "Cihazda izin ver" (Allow on device) secin
+     veya "Karantinaya al" yerine izin verin
+
+SmartScreen cikarsa:
+  1) "Daha fazla bilgi" / "More info"
+  2) "Yine de calistir" / "Run anyway"
+
+Kalici cozum (gelistirici tarafinda): Code Signing sertifikasi.
 
 Guvenlik: Yalnizca resmi GitHub release zip dosyasini indirin.
 Ucuncu taraf sitelerden indirilen dosyalari calistirmayin.

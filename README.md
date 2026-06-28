@@ -2,7 +2,7 @@
 
 Lisans korumalı Discord kullanıcı ve bot token doğrulama aracı.
 
-**Sürüm:** 1.1.2  
+**Sürüm:** 1.1.4  
 **Geliştirici:** PR0FESS0R  
 **Discord:** https://discord.gg/HhSfKRa2Yk
 
@@ -22,12 +22,23 @@ Lisans korumalı Discord kullanıcı ve bot token doğrulama aracı.
 ## Kurulum
 
 1. [Releases](https://github.com/3NS4R28-2/Discord_Token_Checker_PR0FESS0R/releases) sayfasından **kurulum zip** dosyasını indirin ve bir klasöre çıkartın.
-2. **`setup.bat`** dosyasını çalıştırın (Python 3.10+ gerekir).
-3. `tokens.txt` dosyasına tokenlarınızı yazın (her satıra bir tane).
-4. (Opsiyonel) `proxies.txt` dosyasına proxy ekleyin.
-5. `DiscordTokenChacker.exe` dosyasını çalıştırın ve lisans anahtarınızı girin.
+2. `tokens.txt` dosyasına tokenlarınızı yazın (her satıra bir tane).
+3. (Opsiyonel) `proxies.txt` dosyasına proxy ekleyin.
+4. `DiscordTokenChacker.exe` dosyasını çalıştırın ve lisans anahtarınızı girin.
+
+**Not:** Python kurmanız gerekmez. `_internal` klasörünü silmeyin — exe ona ihtiyaç duyar.
 
 Detaylı anlatım için `KULLANIM.txt` dosyasına bakın.
+
+---
+
+## Windows Defender / Wacapew uyarısı
+
+Bazı sistemlerde Windows Defender **`Program:Win32/Wacapew.A!ml`** veya SmartScreen **"tanınmayan yayıncı"** uyarısı verebilir. Bu bir **yanlış alarm (false positive)** olabilir; resmi build VirusTotal'da **0/71 temiz**dir.
+
+**Çözüm:** Windows Güvenliği → Tehdit → **Cihazda izin ver** veya SmartScreen → **Yine de çalıştır**.
+
+Detaylar: `KULLANIM.txt` → "WINDOWS DEFENDER / Wacapew UYARISI"
 
 ---
 
@@ -36,8 +47,7 @@ Detaylı anlatım için `KULLANIM.txt` dosyasına bakın.
 | Dosya | Açıklama |
 |-------|----------|
 | `DiscordTokenChacker.exe` | Ana program |
-| `setup.bat` | İlk adım — Python bağımlılıkları |
-| `requirements.txt` | setup.bat paket listesi |
+| `_internal/` | Zorunlu runtime klasörü |
 | `tokens.txt` | Token giriş dosyası |
 | `proxies.txt` | Proxy listesi (opsiyonel) |
 | `KULLANIM.txt` | Türkçe kurulum kılavuzu |
@@ -68,7 +78,7 @@ PR0FESS0R, yazılımın kötüye kullanımından sorumlu değildir.
 
 License-protected Discord user and bot token validation tool.
 
-**Version:** 1.1.2  
+**Version:** 1.1.4  
 **Developer:** PR0FESS0R  
 **Discord:** https://discord.gg/HhSfKRa2Yk
 
@@ -88,12 +98,23 @@ License-protected Discord user and bot token validation tool.
 ## Installation
 
 1. Download the **setup zip** from [Releases](https://github.com/3NS4R28-2/Discord_Token_Checker_PR0FESS0R/releases) and extract it to a folder.
-2. Run **`setup.bat`** (requires Python 3.10+).
-3. Add your tokens to `tokens.txt` (one per line).
-4. (Optional) Add proxies to `proxies.txt`.
-5. Run `DiscordTokenChacker.exe` and enter your license key.
+2. Add your tokens to `tokens.txt` (one per line).
+3. (Optional) Add proxies to `proxies.txt`.
+4. Run `DiscordTokenChacker.exe` and enter your license key.
+
+**Note:** Python is not required. Do not delete the `_internal` folder — the exe needs it.
 
 See `KULLANIM.txt` for the Turkish setup guide.
+
+---
+
+## Windows Defender / Wacapew warning
+
+Some systems may show **`Program:Win32/Wacapew.A!ml`** or SmartScreen **"unknown publisher"**. This may be a **false positive**; the official build is **0/71 clean** on VirusTotal.
+
+**Fix:** Windows Security → Threat → **Allow on device**, or SmartScreen → **Run anyway**.
+
+Details: `KULLANIM.txt` → "WINDOWS DEFENDER / Wacapew UYARISI"
 
 ---
 
@@ -102,8 +123,7 @@ See `KULLANIM.txt` for the Turkish setup guide.
 | File | Description |
 |------|-------------|
 | `DiscordTokenChacker.exe` | Main application |
-| `setup.bat` | First step — Python dependencies |
-| `requirements.txt` | Package list for setup.bat |
+| `_internal/` | Required runtime folder |
 | `tokens.txt` | Token input file |
 | `proxies.txt` | Proxy list (optional) |
 | `KULLANIM.txt` | Turkish setup guide |
